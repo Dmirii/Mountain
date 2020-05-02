@@ -177,6 +177,8 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 40px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
@@ -193,13 +195,23 @@ body {
   color: #FCFCFC;
 }
 
+.header_menu {
+  min-width: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 .menu__link {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  margin: 0px 30px 0px 0px;
+  margin: 0px 5px 0px 0px;
   /* Светлый */
   color: #FCFCFC;
 }
