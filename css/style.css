@@ -267,6 +267,11 @@ body {
   color: #FCFCFC;
 }
 
+.header__button:hover {
+  color: #EC5118;
+  border: 1px solid #EC5118;
+}
+
 .title {
   font-family: Oswald;
   font-style: normal;

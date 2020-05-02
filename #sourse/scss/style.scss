@@ -168,8 +168,11 @@
 	   font-size: 16px;
 	   line-height: 19px;
 	   /* Светлый */
-	   color: #FCFCFC;
-   
+	   color: #FCFCFC;   
+	}
+	&__button:hover{
+		color: #EC5118;
+		border: 1px solid #EC5118;
 	}
 
  }
