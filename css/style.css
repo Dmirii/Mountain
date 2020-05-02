@@ -166,7 +166,7 @@ body {
           flex-direction: column;
   height: 650px;
   background-position: center;
-  background-image: url(/img/bg.png);
+  background-image: url("/img/bg.png");
   background-repeat: no-repeat;
 }
 
