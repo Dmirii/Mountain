@@ -204,6 +204,10 @@ body {
   color: #FCFCFC;
 }
 
+.menu__link:nth-child(5) {
+  margin-right: 0px;
+}
+
 .header__phone {
   font-family: Roboto;
   font-style: normal;
@@ -236,11 +240,11 @@ body {
   line-height: 145px;
   /* Светлый */
   color: #FCFCFC;
+  margin: 0px 0px 20px 0px;
 }
 
 .header__button {
-  width: 170px;
-  height: 45px;
+  padding: 10px 30px 10px 30px;
   border: 1px solid #FCFCFC;
   font-family: Roboto;
   font-style: normal;
