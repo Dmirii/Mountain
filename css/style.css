@@ -253,6 +253,13 @@ body {
 
 .header .menu__link:hover {
   color: #EC5118;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.header .menu__link:active {
+  color: white;
+  margin-top: -3px;
 }
 
 .header__phone {
@@ -291,7 +298,7 @@ body {
 }
 
 .header__button {
-  padding: 0px 30px 10px 30px;
+  padding: 10px 30px 10px 30px;
   border: 1px solid #FCFCFC;
   font-family: Roboto;
   font-style: normal;
@@ -303,8 +310,20 @@ body {
 }
 
 .header__button:hover {
-  color: #EC5118;
+  color: white;
   border: 1px solid #EC5118;
+  -webkit-transition-duration: 1s,2s;
+          transition-duration: 1s,2s;
+  -webkit-transition-property: color, border;
+  transition-property: color, border;
+}
+
+.header__button:active {
+  color: white;
+  background-color: #EC5118;
+  border: 1px solid #white;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .title {
