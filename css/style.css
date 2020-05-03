@@ -393,7 +393,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 509px;
-  min-width: 0;
 }
 
 .trips__header {
@@ -403,11 +402,6 @@ body {
 .trips__body {
   position: relative;
   margin: 70px 0px 0px 0px;
-}
-
-.trips__items {
-  min-height: 326px;
-  min-width: 370px;
 }
 
 .trips__scrollbar {
@@ -440,7 +434,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: yellow;
+}
+
+.slick-slide {
+  min-height: 326px;
+  min-width: 370px;
 }
 
 .slick-list {
