@@ -82,9 +82,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/roboto-v20-latin_cyrillic-regular.eot");
+  src: url("../fonts/roboto-v20-latin_cyrillic-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Roboto"), local("Roboto-Regular"), url("/fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("/fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff"), url("/fonts/roboto-v20-latin_cyrillic-regular.ttf") format("truetype"), url("/fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto") format("svg");
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/roboto-v20-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff"), url("../fonts/roboto-v20-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/roboto-v20-latin_cyrillic-regular.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 
@@ -93,9 +93,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: url("/fonts/roboto-v20-latin_cyrillic-500.eot");
+  src: url("../fonts/roboto-v20-latin_cyrillic-500.eot");
   /* IE9 Compat Modes */
-  src: local("Roboto Medium"), local("Roboto-Medium"), url("/fonts/roboto-v20-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("/fonts/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("/fonts/roboto-v20-latin_cyrillic-500.woff") format("woff"), url("/fonts/roboto-v20-latin_cyrillic-500.ttf") format("truetype"), url("/fonts/roboto-v20-latin_cyrillic-500.svg#Roboto") format("svg");
+  src: local("Roboto Medium"), local("Roboto-Medium"), url("../fonts/roboto-v20-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-500.woff") format("woff"), url("../fonts/roboto-v20-latin_cyrillic-500.ttf") format("truetype"), url("../fonts/roboto-v20-latin_cyrillic-500.svg#Roboto") format("svg");
   /* Legacy iOS */
 }
 
@@ -104,9 +104,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/oswald-v31-latin_cyrillic-regular.eot");
+  src: url("../fonts/oswald-v31-latin_cyrillic-regular.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("/fonts/oswald-v31-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/oswald-v31-latin_cyrillic-regular.woff2") format("woff2"), url("/fonts/oswald-v31-latin_cyrillic-regular.woff") format("woff"), url("/fonts/oswald-v31-latin_cyrillic-regular.ttf") format("truetype"), url("/fonts/oswald-v31-latin_cyrillic-regular.svg#Oswald") format("svg");
+  src: local(""), url("../fonts/oswald-v31-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/oswald-v31-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/oswald-v31-latin_cyrillic-regular.woff") format("woff"), url("../fonts/oswald-v31-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/oswald-v31-latin_cyrillic-regular.svg#Oswald") format("svg");
   /* Legacy iOS */
 }
 
@@ -115,9 +115,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 500;
-  src: url("/fonts/oswald-v31-latin_cyrillic-500.eot");
+  src: url("../fonts/oswald-v31-latin_cyrillic-500.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("/fonts/oswald-v31-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("/fonts/oswald-v31-latin_cyrillic-500.woff2") format("woff2"), url("/fonts/oswald-v31-latin_cyrillic-500.woff") format("woff"), url("/fonts/oswald-v31-latin_cyrillic-500.ttf") format("truetype"), url("/fonts/oswald-v31-latin_cyrillic-500.svg#Oswald") format("svg");
+  src: local(""), url("../fonts/oswald-v31-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../fonts/oswald-v31-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/oswald-v31-latin_cyrillic-500.woff") format("woff"), url("../fonts/oswald-v31-latin_cyrillic-500.ttf") format("truetype"), url("../fonts/oswald-v31-latin_cyrillic-500.svg#Oswald") format("svg");
   /* Legacy iOS */
 }
 
@@ -126,9 +126,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 600;
-  src: url("/fonts/oswald-v31-latin_cyrillic-600.eot");
+  src: url("../fonts/oswald-v31-latin_cyrillic-600.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("/fonts/oswald-v31-latin_cyrillic-600.eot?#iefix") format("embedded-opentype"), url("/fonts/oswald-v31-latin_cyrillic-600.woff2") format("woff2"), url("/fonts/oswald-v31-latin_cyrillic-600.woff") format("woff"), url("/fonts/oswald-v31-latin_cyrillic-600.ttf") format("truetype"), url("/fonts/oswald-v31-latin_cyrillic-600.svg#Oswald") format("svg");
+  src: local(""), url("../fonts/oswald-v31-latin_cyrillic-600.eot?#iefix") format("embedded-opentype"), url("../fonts/oswald-v31-latin_cyrillic-600.woff2") format("woff2"), url("../fonts/oswald-v31-latin_cyrillic-600.woff") format("woff"), url("../fonts/oswald-v31-latin_cyrillic-600.ttf") format("truetype"), url("../fonts/oswald-v31-latin_cyrillic-600.svg#Oswald") format("svg");
   /* Legacy iOS */
 }
 
