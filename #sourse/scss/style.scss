@@ -160,12 +160,12 @@
 		margin-right: 0px ;
 	}
 	.menu__link:hover{
-		color: #EC5118;
-		transition-duration: 1s;
+		color: white;
+		margin-top: -4px;;
+		transition-duration: 0.5s;
 	}
 	.menu__link:active{
-		color: white;
-		margin-top: -3px;;
+		color: #EC5118;		
 		
 	}
 
@@ -210,7 +210,7 @@
 	   color: #FCFCFC;   
 	}
 	&__button:hover{
-		color: white;
+		color:  #EC5118;
 		border: 1px solid #EC5118;
 		transition-duration: 1s,2s;
 		transition-property: color, border;
@@ -219,7 +219,7 @@
 	&__button:active{
 		color: white;
 		background-color: #EC5118;
-		border: 1px solid #white;
+		border: 1px solid white;
 		transition-duration: 0.5s;
 		//transition-property: color, border;
 	}
@@ -287,25 +287,28 @@
 		margin: 140px 0px 00px 0px;
 		display: flex;	
 		flex-direction: column;	
-		min-height: 509px;	
+		min-height: 509px;
+		min-width: 0;		
 		
 	}
 	&__header{
-
+		min-width: 0;	
 	 }
 	&__body{
-		display: flex;
-		flex-wrap: wrap;
+		position: relative;
+		//display: flex;
+		//flex-wrap: wrap;
 		margin: 70px 0px 0px 0px;
-		justify-content: space-around;		
+		//justify-content: space-around;
+		//min-width: 0;		
 	 }
 	&__items{ 
-		display: flex;
-		flex: 0 0 auto;
-		background: url(../img/trip_bg.jpg) no-repeat;
+		//display: flex;
+		//flex: 0 0 auto;		
 		height: 326px;
-		width: 370px;	
-		margin: 0px 0px 20px 0px;
+		//width: 370px;	
+		//margin: 0px 0px 20px 0px;
+		//min-width: 0;
 	}
 	&__scrollbar{
 		display: flex;
@@ -316,9 +319,41 @@
 	&__scrol{ 
 		margin: 0px 20px 0px 0px;
 	}
+	.one {
+		background: url(../img/trip_bg.jpg) no-repeat;
+	}
+	.two {
+		background: url(../img/trip_bg2.jpg) no-repeat;
+	}
+	.three {
+		background: url(../img/trip_bg3.jpg) no-repeat;
+	}
 
 	}
 
+.slick-track{
+	display: flex;
+}
+
+.slick-list{
+	overflow: hidden;
+}
+.slick-arrow{
+	position: absolute;
+	top:100%;
+	z-index: 10;
+	font-size: 0;
+	height: 35px;
+	width: 35px;
+}
+.slick-arrow.slick-prev{
+	right: 6%;
+	background-image: url(../img/icons/lscrol.png) 0 0 / 100% no-repeat;
+}
+.slick-arrow.slick-next{
+	right:  2%;
+	background-image: url(./img/icons/rscrol.png) 0 0 / 100% no-repeat;
+}
 
 
 

@@ -252,14 +252,14 @@ body {
 }
 
 .header .menu__link:hover {
-  color: #EC5118;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  color: white;
+  margin-top: -4px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .header .menu__link:active {
-  color: white;
-  margin-top: -3px;
+  color: #EC5118;
 }
 
 .header__phone {
@@ -310,7 +310,7 @@ body {
 }
 
 .header__button:hover {
-  color: white;
+  color: #EC5118;
   border: 1px solid #EC5118;
   -webkit-transition-duration: 1s,2s;
           transition-duration: 1s,2s;
@@ -321,7 +321,7 @@ body {
 .header__button:active {
   color: white;
   background-color: #EC5118;
-  border: 1px solid #white;
+  border: 1px solid white;
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
 }
@@ -393,30 +393,20 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 509px;
+  min-width: 0;
+}
+
+.trips__header {
+  min-width: 0;
 }
 
 .trips__body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  position: relative;
   margin: 70px 0px 0px 0px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
 
 .trips__items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  background: url(../img/trip_bg.jpg) no-repeat;
   height: 326px;
-  width: 370px;
-  margin: 0px 0px 20px 0px;
 }
 
 .trips__scrollbar {
@@ -431,5 +421,46 @@ body {
 
 .trips__scrol {
   margin: 0px 20px 0px 0px;
+}
+
+.trips .one {
+  background: url(../img/trip_bg.jpg) no-repeat;
+}
+
+.trips .two {
+  background: url(../img/trip_bg2.jpg) no-repeat;
+}
+
+.trips .three {
+  background: url(../img/trip_bg3.jpg) no-repeat;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 100%;
+  z-index: 10;
+  font-size: 0;
+  height: 35px;
+  width: 35px;
+}
+
+.slick-arrow.slick-prev {
+  right: 6%;
+  background-image: url(../img/icons/lscrol.png) 0 0/100% no-repeat;
+}
+
+.slick-arrow.slick-next {
+  right: 2%;
+  background-image: url(./img/icons/rscrol.png) 0 0/100% no-repeat;
 }
 /*# sourceMappingURL=style.css.map */
