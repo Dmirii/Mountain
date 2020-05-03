@@ -294,9 +294,8 @@
 	&__header{
 		min-width: 0;	
 	 }
-	&__body{
-		position: relative;
-		//display: flex;
+	&__body{		
+		position: relative;		
 		//flex-wrap: wrap;
 		margin: 70px 0px 0px 0px;
 		//justify-content: space-around;
@@ -305,7 +304,8 @@
 	&__items{ 
 		//display: flex;
 		//flex: 0 0 auto;		
-		height: 326px;
+		min-height: 326px;
+		min-width: 370px;
 		//width: 370px;	
 		//margin: 0px 0px 20px 0px;
 		//min-width: 0;
@@ -333,18 +333,25 @@
 
 .slick-track{
 	display: flex;
+	background-color: yellow;
+	
+	//margin: 10px 0px 0px 0px;
 }
 
 .slick-list{
 	overflow: hidden;
+
+	
 }
 .slick-arrow{
+	
 	position: absolute;
-	top:100%;
+	top: 105%;
 	z-index: 10;
 	font-size: 0;
 	height: 35px;
 	width: 35px;
+	
 }
 .slick-arrow.slick-prev{
 	right: 6%;
