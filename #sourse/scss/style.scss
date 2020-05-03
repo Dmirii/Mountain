@@ -128,7 +128,10 @@
 		color: #FCFCFC;
 	}
 	.menu__link:nth-child(5){
-	margin-right: 0px ;
+		margin-right: 0px ;
+	}
+	.menu__link:hover{
+		color: #EC5118;
 	}
 	&__phone {
 		font-family: Roboto;

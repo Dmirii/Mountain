@@ -220,6 +220,10 @@ body {
   margin-right: 0px;
 }
 
+.header .menu__link:hover {
+  color: #EC5118;
+}
+
 .header__phone {
   font-family: Roboto;
   font-style: normal;
