@@ -324,4 +324,51 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
+
+.trips__row {
+  margin: 140px 0px 00px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 509px;
+}
+
+.trips__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 70px 0px 0px 0px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.trips__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  background: url(../img/trip_bg.jpg) no-repeat;
+  height: 326px;
+  width: 370px;
+}
+
+.trips__scrollbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 50px 0px 0px 0px;
+}
+
+.trips__scrol {
+  margin: 0px 20px 0px 0px;
+}
 /*# sourceMappingURL=style.css.map */

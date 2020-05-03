@@ -177,6 +177,7 @@
 
  }
 
+ // для всех заголовков контента
  .title{ 
 	font-family: Oswald;
 	font-style: normal;
@@ -186,6 +187,7 @@
 	/* Темный */	
 	color: #061B28;
  }
+ // для всего текста контента
  .body{
 	font-family: Roboto;
 	font-style: normal;
@@ -201,24 +203,19 @@
 	&__row{
 		margin: 140px 0px 00px 0px;
 		display: flex;		
-		min-height: 509px;
-	
-		
+		min-height: 509px;		
 	 }
-	&__left{
-		
+
+	&__left{		
 		flex: 0 0 auto;
 		max-width: 480px;
 		height: 100%;
-		//margin: 0px 0px 0px 80px;
-		
-	
+		//margin: 0px 0px 0px 80px;	
 	 }
 	&__title{ 
 		
 	} 
 	&__body{ 
-	
 		
 		
 	}
@@ -234,6 +231,45 @@
   }
 
 
+
+.trips { 
+	&__row{
+		margin: 140px 0px 00px 0px;
+		display: flex;	
+		flex-direction: column;	
+		min-height: 509px;	
+		
+	}
+	&__header{
+
+	 }
+	&__body{
+		display: flex;
+		margin: 70px 0px 0px 0px;
+		justify-content: space-around;
+		
+	
+		
+	 }
+	&__items{ 
+		display: flex;
+		flex: 0 0 auto;
+		background: url(../img/trip_bg.jpg) no-repeat;
+		height: 326px;
+		width: 370px;
+	
+	}
+	&__scrollbar{
+		display: flex;
+		justify-content: flex-end;
+		margin: 50px 0px 0px 0px;
+		
+	}
+	&__scrol{ 
+		margin: 0px 20px 0px 0px;
+	}
+
+	}
 
 
 
