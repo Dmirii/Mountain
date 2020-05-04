@@ -404,6 +404,10 @@ body {
   margin: 70px 0px 0px 0px;
 }
 
+.trips__items {
+  text-align: center;
+}
+
 .trips__scrollbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -455,12 +459,12 @@ body {
 }
 
 .slick-arrow.slick-prev {
-  right: 6%;
+  right: 11%;
   background: url(../img/icons/lscrol.png) 0 0/100% no-repeat;
 }
 
 .slick-arrow.slick-next {
-  right: 2%;
+  right: 7%;
   background: url(../img/icons/rscrol.png) 0 0/100% no-repeat;
 }
 /*# sourceMappingURL=style.css.map */

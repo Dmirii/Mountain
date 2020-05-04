@@ -282,16 +282,12 @@
 
 
 
-.trips { 
-	
-	
+.trips { 	
 	&__row{
 		margin: 140px 0px 00px 0px;
 		display: flex;	
 		flex-direction: column;	
-		min-height: 509px;
-			
-		
+		min-height: 509px;		
 	}
 	&__header{
 		min-width: 0;	
@@ -301,8 +297,7 @@
 		margin: 70px 0px 0px 0px;		
 	 }
 	&__items{ 
-	
-	
+		text-align: center;	
 	}
 	&__scrollbar{
 		display: flex;
@@ -326,20 +321,17 @@
 }
 
 .slick-track{
-	display: flex;		
-	
+	display: flex;			
+	//align-items: center;		
 }
 .slick-slide{
-	//flex: 0 0auto;
 	min-height: 326px;
 	min-width: 370px;
-
 }
 .slick-list{
 	overflow: hidden;
-	}
+}
 .slick-arrow{	
-
 	position: absolute;
 	top: 105%;
 	z-index: 10;
@@ -348,11 +340,11 @@
 	width: 35px;	
 }
 .slick-arrow.slick-prev{
-	right: 6%;
+	right: 11%;
 	background: url(../img/icons/lscrol.png) 0 0 / 100% no-repeat;
 }
 .slick-arrow.slick-next{
-	right:  2%;
+	right:  7%;
 	background: url(../img/icons/rscrol.png) 0 0 / 100% no-repeat;
 }
 
