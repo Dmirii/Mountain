@@ -593,4 +593,49 @@ body {
   height: 25px;
   margin: 7px 0px 0px 5px;
 }
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 121px;
+  background-color: #061B28;
+}
+
+.footer__row .footer__left {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 18px */
+  /* Светлый */
+  color: #FCFCFC;
+}
+
+.footer__row .footer__center {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* Светлый */
+  color: #FCFCFC;
+}
+
+.footer__row .footer__right {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  /* or 18px */
+  /* Светлый */
+  color: #FCFCFC;
+}
 /*# sourceMappingURL=style.css.map */
