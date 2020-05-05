@@ -77,6 +77,69 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+.button {
+  padding: 10px 30px 10px 30px;
+  border: 1px solid #FCFCFC;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* Светлый */
+  color: #FCFCFC;
+}
+
+.button:hover {
+  color: #EC5118;
+  border: 1px solid #EC5118;
+  -webkit-transition-duration: 1s,2s;
+          transition-duration: 1s,2s;
+  -webkit-transition-property: color, border;
+  transition-property: color, border;
+}
+
+.button:active {
+  color: white;
+  background-color: #EC5118;
+  border: 1px solid white;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slick-slide {
+  min-height: 326px;
+  min-width: 370px;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 105%;
+  z-index: 10;
+  font-size: 0;
+  height: 35px;
+  width: 35px;
+}
+
+.slick-arrow.slick-prev {
+  right: 11%;
+  background: url(../img/icons/lscrol.png) 0 0/100% no-repeat;
+}
+
+.slick-arrow.slick-next {
+  right: 7%;
+  background: url(../img/icons/rscrol.png) 0 0/100% no-repeat;
+}
+
 /* roboto-regular - latin_cyrillic */
 @font-face {
   font-family: 'Roboto';
@@ -297,35 +360,6 @@ body {
   margin: 0px 0px 20px 0px;
 }
 
-.header__button {
-  padding: 10px 30px 10px 30px;
-  border: 1px solid #FCFCFC;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  /* Светлый */
-  color: #FCFCFC;
-}
-
-.header__button:hover {
-  color: #EC5118;
-  border: 1px solid #EC5118;
-  -webkit-transition-duration: 1s,2s;
-          transition-duration: 1s,2s;
-  -webkit-transition-property: color, border;
-  transition-property: color, border;
-}
-
-.header__button:active {
-  color: white;
-  background-color: #EC5118;
-  border: 1px solid white;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
-}
-
 .title {
   font-family: Oswald;
   font-style: normal;
@@ -434,37 +468,129 @@ body {
   background: url(../img/trip_bg3.jpg) no-repeat;
 }
 
-.slick-track {
+.russia {
+  margin-top: 180px;
+}
+
+.russia__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 650px;
+  background-position: center;
+  background-image: url("../img/russia.png");
+  background-repeat: no-repeat;
 }
 
-.slick-slide {
-  min-height: 326px;
-  min-width: 370px;
+.russia__title {
+  margin-top: 100px;
+  font-family: Oswald;
+  font-style: normal;
+  font-size: 52px;
+  line-height: 115%;
+  /* or 60px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Светлый */
+  color: #FCFCFC;
 }
 
-.slick-list {
-  overflow: hidden;
+.russia__subtitle {
+  margin-top: 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  /* Светлый */
+  color: #FCFCFC;
 }
 
-.slick-arrow {
+.russia_button {
+  margin: 60px;
+}
+
+.russia_tablecenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.russia_tablecenter .russia_table {
+  text-align: center;
+}
+
+.russia_tablecenter table {
+  min-width: 830px;
+  margin-top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+  /* or 31px */
+  /* Светлый */
+  color: #FCFCFC;
+  border-spacing: 0px 20px;
+  /* Расстояние между ячейками */
+}
+
+.russia_tablecenter th {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 25px */
+  color: #A7AEB4;
+}
+
+.russia_tablecenter td, .russia_tablecenter th {
+  border-bottom: 1px solid #45545E;
+  /* Граница вокруг ячеек */
+}
+
+.russia_tablecenter td:nth-child(4)::after {
+  content: '';
+  background: url(../img/icons/₽.png) 0 0 no-repeat;
   position: absolute;
-  top: 105%;
-  z-index: 10;
-  font-size: 0;
-  height: 35px;
-  width: 35px;
-}
-
-.slick-arrow.slick-prev {
-  right: 11%;
-  background: url(../img/icons/lscrol.png) 0 0/100% no-repeat;
-}
-
-.slick-arrow.slick-next {
-  right: 7%;
-  background: url(../img/icons/rscrol.png) 0 0/100% no-repeat;
+  width: 25px;
+  height: 25px;
+  margin: 7px 0px 0px 5px;
 }
 /*# sourceMappingURL=style.css.map */

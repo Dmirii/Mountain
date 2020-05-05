@@ -1,0 +1,34 @@
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slick-slide {
+  min-height: 326px;
+  min-width: 370px;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 105%;
+  z-index: 10;
+  font-size: 0;
+  height: 35px;
+  width: 35px;
+}
+
+.slick-arrow.slick-prev {
+  right: 11%;
+  background: url(../img/icons/lscrol.png) 0 0/100% no-repeat;
+}
+
+.slick-arrow.slick-next {
+  right: 7%;
+  background: url(../img/icons/rscrol.png) 0 0/100% no-repeat;
+}
+/*# sourceMappingURL=myslic.css.map */

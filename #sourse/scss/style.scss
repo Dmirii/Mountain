@@ -1,5 +1,9 @@
 //*Импорт Обнуление*/
 @import "reset_fp.scss";
+//*Импорт кнопка*/
+@import "button.scss";
+//*Импорт slick*/
+@import "myslic.scss";
 
 /* roboto-regular - latin_cyrillic */
 @font-face {
@@ -113,6 +117,10 @@
 	}
 }
 
+
+
+
+
 .header {
 
 	&__row {
@@ -168,7 +176,6 @@
 		color: #EC5118;		
 		
 	}
-
 	&__phone {
 		font-family: Roboto;
 		font-style: normal;
@@ -197,32 +204,7 @@
 	   /* Светлый */
 	   color: #FCFCFC;
 	   margin: 0px 0px 20px 0px;
-	}   
-    &__button {	   
-	   padding: 10px 30px 10px 30px;
-	   border: 1px solid #FCFCFC;
-	   font-family: Roboto;
-	   font-style: normal;
-	   font-weight: 500;
-	   font-size: 16px;
-	   line-height: 19px;
-	   /* Светлый */
-	   color: #FCFCFC;   
-	}
-	&__button:hover{
-		color:  #EC5118;
-		border: 1px solid #EC5118;
-		transition-duration: 1s,2s;
-		transition-property: color, border;
-	}
-
-	&__button:active{
-		color: white;
-		background-color: #EC5118;
-		border: 1px solid white;
-		transition-duration: 0.5s;
-		//transition-property: color, border;
-	}
+	}     
 
  }
 
@@ -319,35 +301,102 @@
 	}
 
 }
+.russia{
+	margin-top: 180px;
+	&__row {
+	display: flex;
+	//flex-wrap: wrap;
+	flex-direction: column;
+	height: 650px;	
+	background-position: center;
+	background-image: url("../img/russia.png");
+	background-repeat: no-repeat;
+	}
+	&__title { 	
+		
+		margin-top: 100px;
+		font-family: Oswald;
+		font-style: normal;
+		//font-weight: 600;
+		font-size: 52px;
+		line-height: 115%;
+		/* or 60px */
+		display: flex;
+		justify-content: center;
+		align-items: center;
 
-.slick-track{
-	display: flex;			
-	//align-items: center;		
-}
-.slick-slide{
-	min-height: 326px;
-	min-width: 370px;
-}
-.slick-list{
-	overflow: hidden;
-}
-.slick-arrow{	
-	position: absolute;
-	top: 105%;
-	z-index: 10;
-	font-size: 0;
-	height: 35px;
-	width: 35px;	
-}
-.slick-arrow.slick-prev{
-	right: 11%;
-	background: url(../img/icons/lscrol.png) 0 0 / 100% no-repeat;
-}
-.slick-arrow.slick-next{
-	right:  7%;
-	background: url(../img/icons/rscrol.png) 0 0 / 100% no-repeat;
-}
+		/* Светлый */
+		color: #FCFCFC;
+		}
+	&__subtitle {	
+		margin-top: 15px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 140%;
+		/* or 25px */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
 
+		/* Светлый */
+		color: #FCFCFC;
 
+	 }	
+	 &_button{
+		 margin: 60px;
+	 }
 
  
+}
+.russia_tablecenter{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+
+	.russia_table{
+		text-align: center;
+	}
+	 table{ 
+		min-width: 830px;
+		margin-top: 10px;		
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 22px;
+		line-height: 140%;
+		/* or 31px */		
+		/* Светлый */		
+		color: #FCFCFC;
+		/////////////
+		border-spacing: 0px 20px; /* Расстояние между ячейками */ 
+		
+	}
+	th {
+		font-family: Roboto;	
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 140%;
+		/* or 25px */
+		color: #A7AEB4;
+	
+	}
+	td, th{
+			border-bottom:  1px solid #45545E; /* Граница вокруг ячеек */ 
+	}
+	td:nth-child(4)::after
+	{
+		content: '';
+		background: url(../img/icons/₽.png) 0 0 no-repeat;
+		position: absolute;
+		width: 25px;
+		height: 25px;
+		margin: 7px 0px 0px 5px;	
+	}
+}
+

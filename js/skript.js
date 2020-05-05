@@ -9,6 +9,7 @@ $(document).ready(function(){
         easing:'easeInSine',
         autoplaySpeed:5000,
         centerMode:true,
+        centerPadding: '40px',
      
         
         responsive:[
@@ -16,7 +17,7 @@ $(document).ready(function(){
             breakepoint:1200,
             settings:{
                 slidesToShow: 2, 
-                //centerPadding: '40px',
+                
             },
             
             breakepoint:400,

@@ -1,0 +1,26 @@
+.button {	   
+	padding: 10px 30px 10px 30px;
+	border: 1px solid #FCFCFC;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	/* Светлый */
+	color: #FCFCFC;   
+}
+
+ .button:hover{
+	 color:  #EC5118;
+	 border: 1px solid #EC5118;
+	 transition-duration: 1s,2s;
+	 transition-property: color, border;
+ }
+
+ .button:active{
+	 color: white;
+	 background-color: #EC5118;
+	 border: 1px solid white;
+	 transition-duration: 0.5s;
+	 //transition-property: color, border;
+ }

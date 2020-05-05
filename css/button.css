@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.button {
+  padding: 10px 30px 10px 30px;
+  border: 1px solid #FCFCFC;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* Светлый */
+  color: #FCFCFC;
+}
+
+.button:hover {
+  color: #EC5118;
+  border: 1px solid #EC5118;
+  -webkit-transition-duration: 1s,2s;
+          transition-duration: 1s,2s;
+  -webkit-transition-property: color, border;
+  transition-property: color, border;
+}
+
+.button:active {
+  color: white;
+  background-color: #EC5118;
+  border: 1px solid white;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+/*# sourceMappingURL=button.css.map */
